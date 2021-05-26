@@ -1,11 +1,19 @@
 class Grid {
 
+	/**
+	Constructor for a new Grid
+	@author	Rodrigo Dominguez
+	**/
 	constructor(){
 		this.offsetX = 0;
 		this.offsetY = 0;
 		this.scale = 1;
 	}
 
+	/**
+	Function that draws the grid
+	@author	Rodrigo Dominguez
+	**/
 	draw () {
 		fill(0);
 		translate(windowWidth / 2, windowHeight / 2);
