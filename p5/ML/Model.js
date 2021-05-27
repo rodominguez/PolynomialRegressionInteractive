@@ -33,10 +33,10 @@ class Model {
 	@author	Rodrigo Dominguez
 	**/
 	draw(){
+		this.pointer.draw();
 		fill(this.colorPicker.color());
 		this.mlDrawer.draw();
 		this.ml.train();
-		this.pointer.draw();
 		this.drawPoints();
 	}
 
